@@ -25,6 +25,7 @@ class Game{
                 }
                 form = new Form()
                 form.display();
+                console.log("Hello");
             }
     player1 = createSprite(200,500);
     player1.addImage("player1",player_img);
